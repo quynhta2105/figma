@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100vw;
+    height: 48vh;
+    background-color: #FFD900;
+    white-space: nowrap;
+}
+
+.wrap_header{
+    padding-top: 9vh;
+    padding-left: 20vh;
+}
+
+.version{
+    font-family: 'SF Mono';
+    font-size: 20px;
+}
+
+.readme{
+    font-family: 'New York Extra Large', sans-serif;
+    font-size: 200px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.note1>div>div{
+    max-width: 62vw;
+}
+
+.note3>div>div{
+    max-width: 55vw;
+}
+
+.pd-t{
+    padding-top: 4vh;
+}
+.vertical-line {
+    border-left: thick solid black;
+    margin-left: 5px;
+}
+.m-l{
+    margin-left: 2vw;
+}
+.ml-25{
+    margin-left: 2.5vw;
+}
+.pd-content{
+    padding-top: 13.9vh;
+    padding-left: 20vh;
+    margin-left: -10px;
+}
+.pd-p{
+    padding-top: 13.9vh;
+}
+.pd-sh{
+    padding-top: 6vh;
+}
+.header-p{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.51px;
+    font-weight: 700;
+}
+
+#footer{
+    display: block;
+    height: 30vh;
+}
+
+.content-p{
+    font-size: 22.5px;
+    font-weight: 400;
+    line-height: 23.87px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+.NYE-font{
+    font-family: 'New York Extra Large', sans-serif;
+}
+.Libre-font{
+    font-family: 'Libre Bodoni', sans-serif;
+}
+.Harriet-font{
+    font-family: 'Harriet Text', sans-serif;
+}
+.Basis-font{
+    font-family: "Basis Grotesque Pro Black";
+}
+.Nokia-font{
+    font-family: 'Nokia Cellphone FC', sans-serif;
+}

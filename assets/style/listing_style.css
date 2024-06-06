@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    position: relative;
+}
+
+#header{
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    position: sticky;
+}
+
+#header > div{
+    border-bottom: 2px solid rgb(231, 224, 224);
+    line-height: 15vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#content{
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.brand{
+    max-width: 55vw;
+}
+
+.note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mw-55vw{
+    max-width: 55vw;
+}
+
+hr{
+    margin-top: 5vh;
+    width: 41vw;               
+    background-color: black;
+    height: 3px;
+}
+
+.list{
+    padding-top: 9vh;
+}
+
+.articles-header{
+    font-family: "New York Extra Large", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.51px;
+    text-align: center;
+}
+
+.articles-desktop{
+    display: flex;
+    justify-content: space-between;
+    max-width: 43vw;
+    flex-wrap: wrap;
+}
+
+.articles-desktop>div{
+    padding-top: 8vh;
+}
+
+.articles-desktop>div>p{
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.4px;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.mw-20{
+    max-width: 20vw;
+}
+
+.group>ul{
+    padding-top: 2vh;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 18px auto 0;
+}
+
+.group li:first-child{
+    margin-left: 0;
+}
+
+.footer-note{
+    font-family: "New York Small";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+    max-width: 32vw;
+    padding-top: 3vh;
+}
+
+.center-div{
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.social>ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (width < 992px){
+    .brand{
+        max-width: 100vw;
+    }
+    .mw-55vw{
+        max-width: 85vw;
+    }
+    .note>h1{
+        font-family: "New York Extra Large";
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 42.96px;
+        text-align: center;
+        max-width: 85vw;
+    }
+    .note>p{
+        max-width: 75vw;
+    }
+    hr{
+        width: 100%; 
+    }
+    .articles-desktop{
+        display: none;
+    }
+}
+
+/* mobile */
+
+
+.articles-mobile>div>img{
+    width: 80vw;
+    height: auto;
+    padding-top: 8vh;
+}
+.articles-mobile>div>div{
+    font-family: "SF Pro Display";
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.4px;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.mw-60{
+    max-width: 60vw;
+}
