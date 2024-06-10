@@ -50,7 +50,7 @@
 }
 .pd-content{
     padding-top: 103px;
-    padding-left: 20vh;
+    padding-left: 131px;
     margin-left: -10px;
 }
 .pd-p{
@@ -62,13 +62,14 @@
 .header-p{
     font-size: 44px;
     font-weight: 700;
-    line-height: 52.51px;
-    font-weight: 700;
 }
 
 #footer{
     display: block;
-    height: 30vh;
+    height: 326px;
+}
+.pt-28px{
+    padding-top: 28.625px;
 }
 
 .content-p{
