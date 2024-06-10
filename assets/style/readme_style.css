@@ -12,8 +12,8 @@
 }
 
 .wrap_header{
-    padding-top: 9vh;
-    padding-left: 20vh;
+    padding-top: 79px;
+    padding-left: 131px;
 }
 
 .version{
@@ -25,8 +25,6 @@
     font-family: 'New York Extra Large', sans-serif;
     font-size: 200px;
     font-weight: 700;
-    margin-top: -10px;
-    margin-left: -10px;
 }
 
 .note1>div>div{
@@ -38,28 +36,28 @@
 }
 
 .pd-t{
-    padding-top: 4vh;
+    padding-top: 26px;
 }
 .vertical-line {
     border-left: thick solid black;
     margin-left: 5px;
 }
 .m-l{
-    margin-left: 2vw;
+    margin-left: 38px;
 }
 .ml-25{
     margin-left: 2.5vw;
 }
 .pd-content{
-    padding-top: 13.9vh;
+    padding-top: 103px;
     padding-left: 20vh;
     margin-left: -10px;
 }
 .pd-p{
-    padding-top: 13.9vh;
+    padding-top: 111.5px;
 }
 .pd-sh{
-    padding-top: 6vh;
+    padding-top: 69.69px;
 }
 .header-p{
     font-size: 44px;
@@ -78,6 +76,7 @@
     font-weight: 400;
     line-height: 23.87px;
     font-family: 'SF Pro Display', sans-serif;
+    width: 70vw;
 }
 .NYE-font{
     font-family: 'New York Extra Large', sans-serif;
