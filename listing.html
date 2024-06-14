@@ -4,202 +4,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listing</title>
-    <link rel="stylesheet" href="./assets/style/listing_style.css">
-    <link href="https://fonts.cdnfonts.com/css/new-york-extra-large" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style_listing.css">
+    <link rel="stylesheet" href="./style/style.css">
+
     <link href="https://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/new-york-extra-large" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/style/style.css">
 </head>
 <body>
     <div id="main">
         <div id="header">
-            <div>
-                <div class="logo">
+            <div class="header_navigation flex">
+                <div class="header_navigation-logo">
                     NORDIC ROSE
                 </div>
-                <div class="nav-desktop">
-                    <ul>
-                        <li class="nav-element"><a href="#">BLOG</a></li>
-                        <li class="nav-element"><a href="#">ABOUT</a></li>
-                        <li class="nav-element"><a href="#">LINKS</a></li>
-                        <li class="nav-element"><a href="#">PROJECTS</a></li>
-                    </ul>
+                <div class="header_navigation-element">
+                    <div class="header_navigation-blog fs-20 fw-500">BLOG</div>
+                    <div class="header_navigation-about fs-20 fw-500">ABOUT</div>
+                    <div class="header_navigation-links fs-20 fw-500">LINKS</div>
+                    <div class="header_navigation-projects fs-20 fw-500">PROJECT</div>
                 </div>
-                <div class="nav-mobile">
-                    <img src="./assets/img/nav-mobile.png" alt="">                
+                <div class="header_navigation_menuicon pt-27 pl-94">
+                    <svg width="24" height="15" viewBox="0 0 24 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line y1="0.5" x2="24" y2="0.5" stroke="black"/>
+                        <line y1="7.5" x2="24" y2="7.5" stroke="black"/>
+                        <line y1="14.5" x2="24" y2="14.5" stroke="black"/>
+                    </svg>
                 </div>
+                    
+            </div>
+            <div class="header_panel">
+                <img width="854" height="533" src="./img/panel.png" alt="">
+            </div>
+            <div class="header_intro New-York-Extra-Large center-text">
+                A few words about this blog platform, Ghost, and how this site was made
+            </div>
+            <div class="header_ask SF-Mono fs-20 center-text">
+                Why Ghost (& Figma) instead of Medium, WordPress or other options?
             </div>
         </div>
-        <div id="content">
-            <img class="brand" src="./assets/img/image.png" alt="">
-            <div class="note note-desktop">
-                <h1 class="mw-55vw">
-                    A few words about this blog platform, Ghost, and how this site was made
-                </h1>
-                <p>
-                    Why Ghost (& Figma) instead of Medium, WordPress or other options?
-                </p>
-            </div>
+        <div class="flex horizontal_center_flex mt-34">
             <hr>
-            <div class="list">
-                <div class="articles-header">
-                    All Articles
-                </div>
-                <div class="articles-desktop">
-                    <div>
-                        <img class="mw-20" src="./assets/img/image1.png" alt="">
-                        <p class="mw-20">
-                            Here are some things you should know regarding how we work 
-                        </p>
+        </div>
+        <div id="content">
+            <div class="content_header New-York-Extra-Large center-text">
+                All articles
+            </div>
+            <div class="flex">
+                <div class="content_articles-col pl-402 pt-39">
+                    <div class="content_article">
+                        <img width="304" height="176" src="./img/1.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Here are some things you should know regarding how we work </p>
                     </div>
-                    &nbsp;&nbsp;&nbsp;
-                    <div>
-                        <img class="mw-20" src="./assets/img/image2.png" alt="">
-                        <p class="mw-20">
-                            Granny gives everyone the finger, and other tips from OFFF Barcelona
-                        </p>
+                    <div class="content_article pt-64">
+                        <img width="304" height="176" src="./img/2.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Hello world, or, in other words, why this blog exists </p>
                     </div>
-                    <div>
-                        <img class="mw-20" src="./assets/img/image3.png" alt="">
-                        <p class="mw-20">
-                            Hello world, or, in other words, why this blog exists
-                        </p>
+                    <div class="content_article pt-90">
+                        <img width="304" height="176" src="./img/3.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Connecting artificial intelligence with digital product design </p>
                     </div>
-                    &nbsp;&nbsp;&nbsp;
-                    <div>
-                        <img class="mw-20" src="./assets/img/image4.png" alt="">
-                        <p class="mw-20">
-                            Here are some things you should know regarding how we work 
-                        </p>
+                    <div class="content_article pt-64">
+                        <img width="304" height="176" src="./img/4.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">I believe learning is the most important skill </p>
                     </div>
-                    <div>
-                        <img class="mw-20" src="./assets/img/5.png" alt="">
-                        <p class="mw-20">
-                            Connecting artificial intelligence with digital product design
-                        </p>
+                    <div class="content_article pt-90">
+                        <img width="304" height="176" src="./img/5.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Clients are part of the team </p>
                     </div>
-                    &nbsp;&nbsp;&nbsp;
-                    <div>
-                        <img class="mw-20" src="./assets/img/6.png" alt="">
-                        <p class="mw-20">
-                            It’s all about finding the perfect balance
-                        </p>
-                    </div>
-                    <div>
-                        <img class="mw-20" src="./assets/img/7.png" alt="">
-                        <p class="mw-20">
-                            I believe learning is the most important skill
-                        </p>
-                    </div>
-                    &nbsp;&nbsp;&nbsp;
-                    <div>
-                        <img class="mw-20" src="./assets/img/8.png" alt="">
-                        <p class="mw-20">
-                            Clients are part of the team
-                        </p>
-                    </div>
-                    <div>
-                        <img class="mw-20" src="./assets/img/9.png" alt="">
-                        <p class="mw-20">
-                            Clients are part of the team
-                        </p>
-                    </div>
-                    &nbsp;&nbsp;&nbsp;
-                    <div>
-                        <img class="mw-20" src="./assets/img/10.png" alt="">
-                        <p class="mw-20">
-                            Here are some things you should know regarding how we work 
-                        </p>
-                    </div>
-                    <div>
-                        <img class="mw-20" src="./assets/img/11.png" alt="">
-                        <p class="mw-20">
-                            Connecting artificial intelligence with digital product design 
-                        </p>
-                    </div>
-                    &nbsp;&nbsp;&nbsp;
-                    <div>
-                        <img class="mw-20" src="./assets/img/12.png" alt="">
-                        <p class="mw-20">
-                            How modern remote working tools get along with Old School Cowboy's methods
-                        </p>
+                    <div class="content_article pt-116">
+                        <img width="304" height="176" src="./img/6.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Connecting artificial intelligence with digital product design </p>
                     </div>
                 </div>
-                <div class="articles-mobile">
-                    <div class="center-div">
-                        <img src="./assets/img/image2.png" alt="">
-                        <div class="mw-60 center-div">
-                            Granny gives everyone the finger, and other tips from OFFF Barcelona
-                        </div>
+                <div class="content_articles-col pl-28 pt-39">
+                    <div class="content_article">
+                        <img width="304" height="176" src="./img/7.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Granny gives everyone the finger, and other tips from OFFF Barcelona </p>
                     </div>
-                    <div class="center-div">
-                        <img class="mw-55vw" src="./assets/img/image3.png" alt="">
-                        <div class="mw-60 center-div">
-                            Hello world, or, in other words, why this blog exists
-                        </div>
+                    <div class="content_article pt-64">
+                        <img width="304" height="176" src="./img/8.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Here are some things you should know regarding how we work  </p>
                     </div>
-                    <div class="center-div">
-                        <img class="mw-55vw" src="./assets/img/image1.png" alt="">
-                        <div class="mw-60 center-div">
-                            Here are some things you should know regarding how we work 
-                        </div>
+                    <div class="content_article pt-64">
+                        <img width="304" height="176" src="./img/9.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">It’s all about finding the perfect balance </p>
                     </div>
-                    <div  class="center-div">
-                        <img class="mw-55vw" src="./assets/img/13.png" alt="">
-                        <div class="mw-60 center-div">
-                            Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better
-                        </div>
+                    <div class="content_article pt-90">
+                        <img width="304" height="176" src="./img/10.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Clients are part of the team </p>
                     </div>
-                    <div class="center-div">
-                        <img class="mw-55vw" src="./assets/img/14.png" alt="">
-                        <div class="mw-60 center-div">
-                            A few words about this blog platform, Ghost, and how this site was made
-                        </div>
+                    <div class="content_article pt-116">
+                        <img width="304" height="176" src="./img/11.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Here are some things you should know regarding how we work  </p>
                     </div>
-                    <div class="center-div">
-                        <img class="mw-55vw" src="./assets/img/12.png" alt="">
-                        <div class="mw-60 center-div">
-                            How modern remote working tools get along with Old School Cowboy's methods
-                        </div>
+                    <div class="content_article pt-64">
+                        <img width="304" height="176" src="./img/12.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">How modern remote working tools get along with Old School Cowboy's methods </p>
+                    </div>
+                </div>
+                <div class="content_articles-mobile">
+                    <div class="content_article pt-29">
+                        <img width="304" height="176" src="./img/7.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Granny gives everyone the finger, and other tips from OFFF Barcelona </p>
+                    </div>
+                    <div class="content_article pt-42">
+                        <img width="304" height="176" src="./img/2.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Here are some things you should know regarding how we work  </p>
+                    </div>
+                    <div class="content_article pt-42">
+                        <img width="304" height="176" src="./img/1.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">It’s all about finding the perfect balance </p>
+                    </div>
+                    <div class="content_article pt-42">
+                        <img width="304" height="176" src="./img/13.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Clients are part of the team </p>
+                    </div>
+                    <div class="content_article pt-42">
+                        <img width="304" height="176" src="./img/14.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">Here are some things you should know regarding how we work  </p>
+                    </div>
+                    <div class="content_article pt-42">
+                        <img width="304" height="176" src="./img/12.png" alt="">
+                        <p class="SF-pro content_article-describe center-text w-262 ml-21">How modern remote working tools get along with Old School Cowboy's methods </p>
                     </div>
                 </div>
             </div>
         </div>
         <div id="footer">
-            <div class="group">
-                <ul>
-                    <li class="SF-font-800 color-w">Digital product design</li>
-                    <li class="SF-font-400 color-w">Remote work</li>
-                    <li class="SF-font-800 color-w">UX design</li>
-                    <li class="SF-font-400 color-w">Distributed teams</li>
-                    <li class="SF-font-800 color-w">Creativity</li>
-                    <li class="SF-font-400 color-w">Strategy</li>
-                    <li class="SF-font-800 color-w">Suspense</li>
-                    <li class="SF-font-400 color-w">Growth</li>
-                </ul>
+            <div class="footer_group flex pt-18">
+                <div class="color-w uppercase fs-20 fw-800 SF-pro ws-nwrap">Digital product design</div>
+                <div class="color-w uppercase fs-20 fw-400 SF-pro pl-27 ws-nwrap">Remote work</div>
+                <div class="color-w uppercase fs-20 fw-800 SF-pro pl-27 ws-nwrap">UX design</div>
+                <div class="color-w uppercase fs-20 fw-400 SF-pro pl-27 ws-nwrap">Distributed teams</div>
+                <div class="color-w uppercase fs-20 fw-800 SF-pro pl-27 ws-nwrap">Suspense</div>
+                <div class="color-w uppercase fs-20 fw-400 SF-pro pl-27 ws-nwrap">Creativity</div>
+                <div class="color-w uppercase fs-20 fw-800 SF-pro pl-27 ws-nwrap">Strategy</div>
+                <div class="color-w uppercase fs-20 fw-400 SF-pro pl-27 ws-nwrap">Growth</div>
             </div>
-            <div class="logo color-w center-div pt-15vh">
-                <p class="nor">
-                    NORDIC ROSE
-                </p>
+            <div class="footer_logo color-w center-text">
+                NORDIC ROSE
             </div>
-            <div class="center-div color-w footer-note">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. 
+            <div class="flex horizontal_center_flex">
+                <div class="footer_describe center-text color-w New-York-Small">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. 
+                </div>
             </div>
-            <div class="social center-div">
-                <ul>
-                    <a class="color-w social-font" href="">Twiteer</a>
-                    <a class="color-w social-font" href="">LinkIn</a>
-                    <a class="color-w social-font" href="">RSS</a>
-                </ul>
+            <div class="footer_social flex horizontal_center_flex pt-32">
+                <div class="color-w SF-pro fw-500 underline fs-16">Twitter</div>
+                <div class="color-w SF-pro fw-500 underline fs-16 pl-27">LinkedIn</div>
+                <div class="color-w SF-pro fw-500 underline fs-16 pl-29">RSS</div>
             </div>
-            <div class="coppyright">
-                <p class="color-w center-div">
-                    © 2012–2020 Nordic Rose Co. 
-                </p>
-                <p class="color-w">
-                    All rights reserved. 
-                </p>
+            <div class="footer_coppyright color-w center-text SF-pro fw-500 fs-12 pt-64">
+                © 2012–2020 Nordic Rose Co. <br>All rights reserved. 
             </div>
         </div>
     </div>

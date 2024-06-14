@@ -1,0 +1,98 @@
+#main{
+    width: 1532px;
+    height: 2240px;
+}
+
+#header{
+    height: 350px;
+    background-color: #FFD900;
+}
+
+.version{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.87px;
+    padding-top: 65px;
+}
+
+.readme{
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 238.67px;
+}
+
+.content_header-header1{
+    padding-top: 103px;
+}
+
+.content_header-header2{
+    padding-top: 90px;
+}
+
+.content_header-header3{
+    padding-top: 80px;
+}
+
+.content_paragraph-paragraph1{
+    width: 923px;
+    height: 96px;
+}
+
+.content_paragraph-paragraph2{
+    width: 884px;
+}
+
+.content_paragraph-paragraph3{
+    width: 791px;
+    height: 72px;
+}
+
+.content_subcontent-subheader1{
+    padding-left: 8.24px;
+    padding-top: 58.8px;
+}
+
+.content_subcontent-subheader2{
+    padding-top: 52.2px;
+    padding-left: 5px;
+}
+
+.content_subcontent-subheader3{
+    padding-top: 60.87px;
+    padding-left: 7.43px;
+}
+
+.content_subcontent-subheader4{
+    padding-top: 56.44px;
+    padding-left: 9.75px;
+}
+
+.content_subcontent-subheader5{
+    padding-top: 53.75px;
+    padding-left: 5px;
+}
+
+.content_subcontent-subparagraph1{
+    padding-top: 11.98px;
+    width: 656px;
+}
+
+.content_subcontent-subparagraph2{
+    padding-top: 14.74px;
+    width: 678px;
+}
+
+.content_subcontent-subparagraph3{
+    padding-top: 30.24px;
+    width: 532px;
+}
+
+.content_subcontent-subparagraph4{
+    padding-top: 29.98px;
+    width: 830px;
+}
+
+.content_subcontent-subparagraph5{
+    padding-top: 29px;
+    padding-bottom: 7px;
+}
