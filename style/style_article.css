@@ -207,6 +207,10 @@ hr{
     padding-top: 36px;
 }
 
+.content_blog-header{
+    font-size: 32px;
+}
+
 @media (min-width: 992px){
     .header_navigation_menuicon,
     .content_social-mobile,
@@ -332,6 +336,9 @@ hr{
     }
     #footer{
         margin-top: 52px;
+    }
+    .content_blog-header{
+        font-size: 26px;
     }
 }
 
