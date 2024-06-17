@@ -47,7 +47,9 @@
 .content_eyeline-line{
     background-color: black;
     height: 2px;
-    width: 1440px;
+    width: 100vw;
+    margin-left: calc((-100vw + 100%) / 2);
+    margin-right: calc((-100vw + 100%) / 2);
 }
 
 .content_eyeline-eye{
@@ -106,7 +108,6 @@
 }
 
 html{
-    background-color: black;
     display: flex;
     justify-content: center;
 }
@@ -118,7 +119,17 @@ html{
 
 .header_navigation{
     height: 134px;
-    border: 1px solid #c7c397
+    border-bottom: 1px solid #c7c397;
+}
+
+.header_navigation-line{
+    padding-top: 133.5px;
+    position: absolute;
+    border-bottom: 1px solid #c7c397;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
 }
 
 .header_navigation-logo{
@@ -150,6 +161,7 @@ html{
 .header_navigation-blog:hover, .header_navigation-about:hover,
 .header_navigation-links:hover, .header_navigation-projects:hover{
     border-bottom: 2px solid black;
+    cursor: pointer;
 }
 
 .header_intro{
@@ -177,8 +189,14 @@ hr{
 #footer{
     background-color: black;
     margin-top: 139px;
-    width: 1451px;
+    width: 100vw;
     height: 464px;
+    margin-left: calc((-100vw + 100%) / 2);
+    margin-right: calc((-100vw + 100%) / 2);
+}
+
+.footer_group{
+    justify-content: center;
 }
 
 .footer_logo{
@@ -211,6 +229,16 @@ hr{
     font-size: 32px;
 }
 
+.header_panel{
+    width: 100vw;
+    margin-left: calc((-100vw + 100%) / 2);
+    margin-right: calc((-100vw + 100%) / 2);
+}
+
+.header_panel img{
+    width: 100vw;
+}
+
 @media (min-width: 992px){
     .header_navigation_menuicon,
     .content_social-mobile,
@@ -229,7 +257,8 @@ hr{
     .content_blog-paragraph,
     .header_navigation-element,
     .content_social,
-    .content_articles-arts{
+    .content_articles-arts,
+    .header_navigation-line{
         display: none;
     }
     #main{
@@ -244,6 +273,11 @@ hr{
         padding-top: 24px;
         letter-spacing: 3px;
         width: 217px;
+    }
+    .header_panel{
+        width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
     }
     .header_intro{
         margin-left: 20px;
@@ -290,6 +324,8 @@ hr{
     }
     .content_eyeline-line{
         width: 375px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .content_eyeline-eye{
         top: 55%;
@@ -307,6 +343,8 @@ hr{
         height: 305px;
         margin-left: 0;
         border-bottom: 2px solid black;
+        border-left: 0;
+        border-right: 0;
     }
     .content_signup-header{
         padding-top: 42px;
@@ -336,6 +374,8 @@ hr{
     }
     #footer{
         margin-top: 52px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .content_blog-header{
         font-size: 26px;

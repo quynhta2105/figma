@@ -51,7 +51,7 @@
 }
 
 .vertical-line{
-    border-left: thick solid black;
+    border-left: 6px solid black;
 }
 
 .header-paragraph{

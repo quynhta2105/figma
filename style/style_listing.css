@@ -1,5 +1,4 @@
 html{
-    background-color: black;
     display: flex;
     justify-content: center;
 }
@@ -10,8 +9,12 @@ html{
 }
 
 .header_navigation{
+    width: 100vw;
     height: 134px;
-    border: 1px solid #c7c397
+    border-bottom: 1px solid #c7c397;
+    margin-left: calc((-100vw + 100%) / 2);
+    margin-right: calc((-100vw + 100%) / 2);
+    justify-content: center;
 }
 
 .header_navigation-logo{
@@ -43,6 +46,7 @@ html{
 .header_navigation-blog:hover, .header_navigation-about:hover,
 .header_navigation-links:hover, .header_navigation-projects:hover{
     border-bottom: 2px solid black;
+    cursor: pointer;
 }
 
 .header_panel{
@@ -88,8 +92,14 @@ hr{
 #footer{
     background-color: black;
     margin-top: 139px;
-    width: 1451px;
+    width: 100vw;
     height: 464px;
+    margin-left: calc((-100vw + 100%) / 2);
+    margin-right: calc((-100vw + 100%) / 2);
+}
+
+.footer_group{
+    justify-content: center;
 }
 
 .footer_logo{
@@ -121,6 +131,9 @@ hr{
     }
     .header_navigation{
         height: 65px;
+        margin-right: 0;
+        margin-left: 0;
+        width: 375px;
     }
     .header_navigation-logo{
         font-size: 20px;
@@ -174,6 +187,8 @@ hr{
     #footer{
         overflow: hidden;
         width: 375px;
+        margin-right: 0;
+        margin-left: 0;
     }
     .footer_describe{
         font-size: 13px;
